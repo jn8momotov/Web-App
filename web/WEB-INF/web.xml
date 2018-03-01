@@ -1,0 +1,16 @@
+<!DOCTYPE web-app PUBLIC '-//Sun Microsystems, Inc.//DTD
+  Web Application 2.3//EN' 'http://java.sun.com/dtd/web-app_2_3.dtd'>
+
+<web-app>
+
+	<servlet>
+		<servlet-name>tags</servlet-name>
+		<servlet-class>ru.mirea.ServletTags</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>tags</servlet-name>
+		<url-pattern>/tags</url-pattern>
+	</servlet-mapping>
+
+</web-app>
